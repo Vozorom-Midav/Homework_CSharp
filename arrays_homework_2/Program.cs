@@ -8,7 +8,7 @@ double maxElem = 0, minElem = 0, result;
 
 for(int i = 0; i<array.Length; i++)
 {
-    array[i] = new Random().NextDouble() * 99.00;
+    array[i] = new Random().NextDouble() * 99.99;
     Console.Write(array[i] + " ");
 }
 
