@@ -70,8 +70,8 @@ void PrintArrayElement(int [ , ] checkArray, int column_number, int line_number,
 int[ , ] myArr = CreateArray();
 PrintArray("Получили массив: ", myArr);
 
-int n1 = InformationRequest("Введите номер столбца(Начинается с 0): ");
-int n2 = InformationRequest("Введите номер строки(Начинается с 0): ");
+int n1 = InformationRequest("Введите номер строки(Начинается с 0): ");
+int n2 = InformationRequest("Введите номер столбца(Начинается с 0): ");
 
 bool checkArr = CheckingArray(myArr, n1, n2);
 
